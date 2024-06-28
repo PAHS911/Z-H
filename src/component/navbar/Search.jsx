@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaSearch } from "react-icons/fa";
 
 const Search = () => {
   const [search, setSearch] = useState("");
@@ -16,6 +17,7 @@ const Search = () => {
       console.log("from search! ");
     }
   };
+
   const handleKey = (event) => {
     if (event.key === "Enter") {
       handleAdd();
@@ -24,27 +26,26 @@ const Search = () => {
   };
 
   return (
-    <>
-      
-
-      <div className="flex items-center">
+    <div className="flex items-center">
+      <div className="relative">
         <input
           onKeyDown={handleKey}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           type="text"
           placeholder="Search..."
-          className="px-3 py-1 mr-2 rounded-lg outline-none bg-white text-gray-800"
+          className="w-96 px-3 py-1 pl-10 rounded-lg outline-none bg-white text-gray-800"
         />
-        <button
-          onClick={handleAdd}
-          type="button"
-          className="px-4 py-1 bg-white text-blue-500 rounded-lg hover:bg-blue-200 transition-colors duration-300"
-        >
-          Add
-        </button>
+        <FaSearch className="absolute left-3 top-2 text-gray-500" />
       </div>
-    </>
+      {/* <button
+        onClick={handleAdd}
+        type="button"
+        className="px-4 py-1 bg-white text-blue-500 rounded-lg hover:bg-blue-200 transition-colors duration-300"
+      >
+        Add
+      </button> */}
+    </div>
   );
 };
 

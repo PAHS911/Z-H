@@ -11,13 +11,13 @@ const Catalog = () => {
     <div className="w-1/5 pt-4 px-2 h-full mt-12 fixed flex flex-col bg-blue-300 text-white">
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("electronics")}
         >
           Electronics
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "electronics" ? "block" : "hidden"
           }`}
         >
@@ -31,12 +31,12 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("fashion")}
         >
           Fashion and Apparel
         </button>
-        <ul className={`mt-2 ${activeMenu === "fashion" ? "block" : "hidden"}`}>
+        <ul className={`mb-2 ${activeMenu === "fashion" ? "block" : "hidden"}`}>
           <li className="cursor-pointer">Men's Clothing</li>
           <li className="cursor-pointer">Women's Clothing</li>
           <li className="cursor-pointer">Shoes & Accessories</li>
@@ -47,13 +47,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("home-kitchen")}
         >
           Home and Kitchen
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "home-kitchen" ? "block" : "hidden"
           }`}
         >
@@ -67,13 +67,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("beauty-care")}
         >
           Beauty and Personal Care
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "beauty-care" ? "block" : "hidden"
           }`}
         >
@@ -87,13 +87,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("books-media")}
         >
           Books and Media
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "books-media" ? "block" : "hidden"
           }`}
         >
@@ -106,13 +106,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("toys-games")}
         >
           Toys and Games
         </button>
         <ul
-          className={`mt-2 ${activeMenu === "toys-games" ? "block" : "hidden"}`}
+          className={`mb-2 ${activeMenu === "toys-games" ? "block" : "hidden"}`}
         >
           <li className="cursor-pointer">Action Figures & Dolls</li>
           <li className="cursor-pointer">Board Games & Puzzles</li>
@@ -123,13 +123,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("health-wellness")}
         >
           Health and Wellness
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "health-wellness" ? "block" : "hidden"
           }`}
         >
@@ -142,13 +142,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("auto-tools")}
         >
           Automotive and Tools
         </button>
         <ul
-          className={`mt-2 ${activeMenu === "auto-tools" ? "block" : "hidden"}`}
+          className={`mb-2 ${activeMenu === "auto-tools" ? "block" : "hidden"}`}
         >
           <li className="cursor-pointer">Car Accessories</li>
           <li className="cursor-pointer">Tools & Equipment</li>
@@ -159,13 +159,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("pet-supplies")}
         >
           Pet Supplies
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "pet-supplies" ? "block" : "hidden"
           }`}
         >
@@ -178,13 +178,13 @@ const Catalog = () => {
       </div>
       <div>
         <button
-          className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+          className="py-2 w-full px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
           onClick={() => toggleMenu("miscellaneous")}
         >
           Miscellaneous
         </button>
         <ul
-          className={`mt-2 ${
+          className={`mb-2 ${
             activeMenu === "miscellaneous" ? "block" : "hidden"
           }`}
         >
