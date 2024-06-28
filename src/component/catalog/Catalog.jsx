@@ -2,7 +2,7 @@ import React from "react";
 
 const Catalog = () => {
   return (
-    <div className="w-1/5 pt-4 px-2 h-full fixed flex flex-col  bg-blue-300 text-white">
+    <div className="w-1/5 pt-4 px-2 h-full mt-12 fixed flex flex-col  bg-blue-300 text-white">
       <button className="py-2 px-4 mb-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300">
         Electronics
       </button>
