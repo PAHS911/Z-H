@@ -3,7 +3,7 @@ import Logsign from "./Logsign";
 
 const Navbar = () => {
   return (
-    <div className="fixed z-10 h-12 w-full px-4 py-2 bg-blue-500 flex justify-between items-center">
+    <div className="fixed z-20 h-12 w-full px-4 py-2 bg-blue-500 flex justify-between items-center">
       <div className="flex items-center">
         <div className="text-white font-bold text-lg mr-2">Logo</div>
         <div className="text-white text-lg">Z & H</div>

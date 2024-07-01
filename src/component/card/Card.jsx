@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <>
-      <div className="w-4/5 pt-16 relative left-[20%]  px-2 grid grid-cols-3 grid-rows-8  gap-4    ">
+      <div className="w-4/5 pt-10 mt-2  relative left-[20%]  px-2 grid grid-cols-3 grid-rows-8  gap-4 overflow-x-hidden    ">
         <div className="bg-white  rounded-lg overflow-hidden">
           <div className="relative h-60">
             <img
