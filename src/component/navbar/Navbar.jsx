@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <div className="text-white font-bold text-lg mr-2">Logo</div>
         <div className="text-white text-lg">Z & H</div>
+        
       </div>
 
       <Search />
