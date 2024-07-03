@@ -9,12 +9,12 @@ const Logsign = () => {
 
   const handleLoginClick = () => {
     setShowLogin(true);
-    setShowSignup(false); // Make sure signup form is hidden
+    setShowSignup(false);
   };
 
   const handleSignupClick = () => {
     setShowSignup(true);
-    setShowLogin(false); // Make sure login form is hidden
+    setShowLogin(false);
   };
 
   const handleFormClose = () => {
