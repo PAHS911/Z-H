@@ -10,7 +10,7 @@ const Catalog = () => {
 
   return (
     <>
-      <div class="hidden">
+      <div className="hidden">
         <div className="w-1/5 pt-4 px-2 h-full mt-12 fixed flex flex-col bg-blue-300 text-white ">
           <div>
             <button
